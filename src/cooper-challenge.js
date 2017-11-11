@@ -120,4 +120,23 @@ function cooper(attr) {
       }
     }
   }
+  if(attr.gender == "woman") {
+    if(attr.age >= 50) {
+      if(attr.distance >= 2200) {
+        return "Excellent";
+      }
+      if(attr.distance >= 1700) {
+        return "Above Average";
+      }
+      if(attr.distance >= 1400) {
+        return "Average";
+      }
+      if(attr.distance >= 1100) {
+        return "Bellow Average";
+      }
+      if(attr.distance < 1100) {
+        return "Poor";
+      }
+    }
+  }
 }
