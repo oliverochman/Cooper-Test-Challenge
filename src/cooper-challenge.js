@@ -206,5 +206,22 @@ function cooper(attr) {
         return "Poor";
       }
     }
+    if(attr.age >= 15) {
+      if(attr.distance >= 2100) {
+        return "Excellent";
+      }
+      if(attr.distance >= 2000) {
+        return "Above Average";
+      }
+      if(attr.distance >= 1700) {
+        return "Average";
+      }
+      if(attr.distance >= 1600) {
+        return "Below Average";
+      }
+      if(attr.distance < 1600) {
+        return "Poor";
+      }
+    }
   }
 }
