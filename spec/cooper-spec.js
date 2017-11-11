@@ -22,4 +22,8 @@ describe("cooper", function(){
   it("returns correct data on calculation for man 15-16 age", function(){
     expect(cooper({age: 16, gender: "man", distance: 2799})).toEqual("Above Average");
   });
+
+  it("returns correct data on calculation for man 13-14 age", function(){
+    expect(cooper({age: 13, gender: "man", distance: 2112})).toEqual("Average");
+  });
 });
