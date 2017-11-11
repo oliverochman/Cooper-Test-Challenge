@@ -36,5 +36,9 @@ describe("Cooper Challenge", function(){
     it("returns a correct data on calculation for woman 40-49 age", function(){
       expect(cooper({age: 47, gender: "woman", distance: 2000})).toEqual("Above Average");
     });
+
+    it("returns a correct data on calculation for woman 30-39 age", function(){
+      expect(cooper({age: 32, gender: "woman", distance: 1800})).toEqual("Average");
+    });
   });
 });
