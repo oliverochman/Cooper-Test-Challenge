@@ -11,7 +11,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1300) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1300) {
         return "Poor";
@@ -28,7 +28,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1400) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1400) {
         return "Poor";
@@ -45,7 +45,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1500) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1500) {
         return "Poor";
@@ -62,7 +62,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1600) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1600) {
         return "Poor";
@@ -79,7 +79,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 2300) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 2300) {
         return "Poor";
@@ -96,7 +96,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 2200) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 2200) {
         return "Poor";
@@ -113,7 +113,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 2100) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 2100) {
         return "Poor";
@@ -132,7 +132,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1100) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1100) {
         return "Poor";
@@ -149,7 +149,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1200) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1200) {
         return "Poor";
@@ -166,7 +166,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1400) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1400) {
         return "Poor";
@@ -183,7 +183,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1500) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1500) {
         return "Poor";
@@ -200,7 +200,7 @@ function cooper(attr) {
         return "Average";
       }
       if(attr.distance >= 1700) {
-        return "Bellow Average";
+        return "Below Average";
       }
       if(attr.distance < 1700) {
         return "Poor";

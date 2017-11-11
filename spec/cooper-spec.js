@@ -5,7 +5,7 @@ describe("Cooper Challenge", function(){
     });
 
     it("returns correct data on calculation for man 40-49 age", function(){
-      expect(cooper({age: 47, gender: "man", distance: 1423})).toEqual("Bellow Average");
+      expect(cooper({age: 47, gender: "man", distance: 1423})).toEqual("Below Average");
     });
 
     it("returns correct data on calculation for man 30-39 age", function(){
@@ -25,7 +25,7 @@ describe("Cooper Challenge", function(){
     });
 
     it("returns correct data on calculation for man 13-14 age", function(){
-      expect(cooper({age: 13, gender: "man", distance: 2112})).toEqual("Bellow Average");
+      expect(cooper({age: 13, gender: "man", distance: 2112})).toEqual("Below Average");
     });
   });
   describe("Female", function(){
@@ -47,6 +47,10 @@ describe("Cooper Challenge", function(){
 
     it("returns a correct data on calculation for woman 17-19 age", function(){
       expect(cooper({age: 19, gender: "woman", distance: 1600})).toEqual("Poor");
+    });
+
+    it("returns a correct data on calculation for woman 15-16 age", function(){
+      expect(cooper({age: 15, gender: "woman", distance: 1659})).toEqual("Below Average");
     });
   });
 });
