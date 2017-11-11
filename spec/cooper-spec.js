@@ -24,6 +24,6 @@ describe("cooper", function(){
   });
 
   it("returns correct data on calculation for man 13-14 age", function(){
-    expect(cooper({age: 13, gender: "man", distance: 2112})).toEqual("Average");
+    expect(cooper({age: 13, gender: "man", distance: 2112})).toEqual("Bellow Average");
   });
 });
