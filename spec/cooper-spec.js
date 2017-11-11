@@ -14,4 +14,8 @@ describe("cooper", function(){
   it("returns a correct data on calculation for man 20-29 age", function(){
     expect(cooper({age: 29, gender: "man", distance: 1599})).toEqual("Poor");
   });
+
+  it("returns a correct data on calculation for man 17-19 age", function(){
+    expect(cooper({age: 18, gender: "man", distance: 3500})).toEqual("Excellent");
+  });
 })
