@@ -1,4 +1,4 @@
-function cooper(attr){
+function cooper(attr) {
   if(attr.gender == "man") {
     if(attr.age >= 50) {
       if(attr.distance >= 2400) {
@@ -31,6 +31,23 @@ function cooper(attr){
         return "Bellow Average";
       }
       if(attr.distance > 1400) {
+        return "Poor";
+      }
+    }
+    if(attr.age >= 30) {
+      if(attr.distance >= 2700) {
+        return "Excellent";
+      }
+      if(attr.distance >= 2300) {
+        return "Above Average";
+      }
+      if(attr.distance >= 1900) {
+        return "Average";
+      }
+      if(attr.distance >= 1500) {
+        return "Bellow Average";
+      }
+      if(attr.distance > 1500) {
         return "Poor";
       }
     }
