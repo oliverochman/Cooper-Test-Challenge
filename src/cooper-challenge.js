@@ -13,7 +13,7 @@ function cooper(attr) {
       if(attr.distance >= 1300) {
         return "Bellow Average";
       }
-      if(attr.distance > 1300) {
+      if(attr.distance < 1300) {
         return "Poor";
       }
     }
@@ -30,7 +30,7 @@ function cooper(attr) {
       if(attr.distance >= 1400) {
         return "Bellow Average";
       }
-      if(attr.distance > 1400) {
+      if(attr.distance < 1400) {
         return "Poor";
       }
     }
@@ -47,7 +47,24 @@ function cooper(attr) {
       if(attr.distance >= 1500) {
         return "Bellow Average";
       }
-      if(attr.distance > 1500) {
+      if(attr.distance < 1500) {
+        return "Poor";
+      }
+    }
+    if(attr.age >= 20) {
+      if(attr.distance >= 2800) {
+        return "Excellent";
+      }
+      if(attr.distance >= 2400) {
+        return "Above Average";
+      }
+      if(attr.distance >= 2200) {
+        return "Average";
+      }
+      if(attr.distance >= 1600) {
+        return "Bellow Average";
+      }
+      if(attr.distance < 1600) {
         return "Poor";
       }
     }
