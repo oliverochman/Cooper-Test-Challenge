@@ -1,19 +1,25 @@
 describe("Cooper Challenge", function(){
+  var testSubject;
   describe("Male", function(){
+    testSubject = new Person({gender: 'man'});
     it("returns a correct data on calculation for man 50+ age", function(){
-      expect(cooper({age: 53, gender: "man", distance: 2000})).toEqual("Above Average");
+      testSubject.age = 53;
+      expect(cooper(testSubject, {distance: 2000})).toEqual("Above Average");
     });
 
     it("returns correct data on calculation for man 40-49 age", function(){
-      expect(cooper({age: 47, gender: "man", distance: 1423})).toEqual("Below Average");
+      testSubject.age = 47;
+      expect(cooper(testSubject,{distance: 1423})).toEqual("Below Average");
     });
 
     it("returns correct data on calculation for man 30-39 age", function(){
-      expect(cooper({age: 33, gender: "man", distance: 2000})).toEqual("Average");
+      testSubject.age = 39;
+      expect(cooper(testSubject, {distance: 2000})).toEqual("Average");
     });
 
     it("returns correct data on calculation for man 20-29 age", function(){
-      expect(cooper({age: 29, gender: "man", distance: 1599})).toEqual("Poor");
+      testSubject.age = 29;
+      expect(cooper(testSubject, {distance: 1599})).toEqual("Poor");
     });
 
     it("returns correct data on calculation for man 17-19 age", function(){

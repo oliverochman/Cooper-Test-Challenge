@@ -1,6 +1,6 @@
-function cooper(attr) {
-  if(attr.gender == "man") {
-    if(attr.age >= 50) {
+function cooper(subject, attr) {
+  if(subject.gender == "man") {
+    if(subject.age >= 50) {
       if(attr.distance >= 2400) {
         return "Excellent";
       }
@@ -17,7 +17,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 40) {
+    if(subject.age >= 40) {
       if(attr.distance >= 2500) {
         return "Excellent";
       }
@@ -34,7 +34,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 30) {
+    if(subject.age >= 30) {
       if(attr.distance >= 2700) {
         return "Excellent";
       }
@@ -51,7 +51,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 20) {
+    if(subject.age >= 20) {
       if(attr.distance >= 2800) {
         return "Excellent";
       }
@@ -68,7 +68,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 17) {
+    if(subject.age >= 17) {
       if(attr.distance >= 3000) {
         return "Excellent";
       }
@@ -85,7 +85,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 15) {
+    if(subject.age >= 15) {
       if(attr.distance >= 2800) {
         return "Excellent";
       }
@@ -102,7 +102,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 13) {
+    if(subject.age >= 13) {
       if(attr.distance >= 2700) {
         return "Excellent";
       }
@@ -120,8 +120,8 @@ function cooper(attr) {
       }
     }
   }
-  if(attr.gender == "woman") {
-    if(attr.age >= 50) {
+  if(subject.gender == "woman") {
+    if(subject.age >= 50) {
       if(attr.distance >= 2200) {
         return "Excellent";
       }
@@ -138,7 +138,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 40) {
+    if(subject.age >= 40) {
       if(attr.distance >= 2300) {
         return "Excellent";
       }
@@ -155,7 +155,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 30) {
+    if(subject.age >= 30) {
       if(attr.distance >= 2500) {
         return "Excellent";
       }
@@ -172,7 +172,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 20) {
+    if(subject.age >= 20) {
       if(attr.distance >= 2700) {
         return "Excellent";
       }
@@ -189,7 +189,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 17) {
+    if(subject.age >= 17) {
       if(attr.distance >= 2300) {
         return "Excellent";
       }
@@ -206,7 +206,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 15) {
+    if(subject.age >= 15) {
       if(attr.distance >= 2100) {
         return "Excellent";
       }
@@ -223,7 +223,7 @@ function cooper(attr) {
         return "Poor";
       }
     }
-    if(attr.age >= 13) {
+    if(subject.age >= 13) {
       if(attr.distance >= 2000) {
         return "Excellent";
       }
